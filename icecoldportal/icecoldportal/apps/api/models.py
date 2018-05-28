@@ -11,6 +11,5 @@ class Brother(models.Model):
     ship_name = models.CharField(max_length=30)
     created = models.DateTimeField(auto_now_add=True)
 
-
-def __str__(self):
-    return '%s %s %s', (self.first_name, self.last_name, self.crossing_date, self.ship_name)
+    def __str__(self):
+        return '%s %s %s %s' % (self.first_name, self.last_name, self.crossing_date, self.ship_name)
