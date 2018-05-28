@@ -26,6 +26,10 @@ Web Application that will serve as summer project for Bruhs looking to add to th
 - `source venv/bin/activate`
 - `pip install --upgrade pip`
 - `pip install -r requirements.txt`
+  - On mac you may get stuck on this line due to mysqlclient not being properly installed on the venv
+  - run `xcode-select --install` 
+  - then `pip install -v mysqlclient`
+  - re-run `pip install -r requirements.txt` and make sure they are satisfied 
 
 ### setup your local application config
 - Please change the password in **icecoldportal/settings/settings_local.py** to the password you create in the database setup section
