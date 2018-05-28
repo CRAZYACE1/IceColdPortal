@@ -38,7 +38,7 @@ Web Application that will serve as summer project for Bruhs looking to add to th
 - `python manage.py migrate`
   - if you get stuck run `pip install django`
   - If you get an error like this `django.db.utils.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")` your password in settings_local.py is probably wrong
-  - To reset your password: 
+#### To reset your password: 
   - `mysql -u root`
   - `mysql> USE mysql;`
   - `mysql> UPDATE user SET authentication_string=PASSWORD("NEWPASSWORD") WHERE User='root';`
