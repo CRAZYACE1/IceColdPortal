@@ -37,6 +37,7 @@ Web Application that will serve as summer project for Bruhs looking to add to th
 
 ### setup your local database
 - `python manage.py migrate`
+  - if you get stuck run `pip3 install django`
 
 ### run the app
 - python manage.py runserver
