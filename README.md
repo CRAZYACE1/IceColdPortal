@@ -31,7 +31,8 @@ Web Application that will serve as summer project for Bruhs looking to add to th
   - re-run `pip install -r requirements.txt` and make sure they are satisfied 
 
 ### setup your local application config
-- Please change the password in **icecoldportal/settings/settings_local.py** to the password you create in the database setup section
+- rename **icecoldportal/settings/settings_local_example.py** to **icecoldportal/settings/settings_local.py**
+- Please change the password in **icecoldportal/settings/settings_local.py** to the password you created in the database setup section
 
 
 ### setup your local database
